@@ -1,4 +1,18 @@
 
+
+
+  var jumboHeight = $('.jumbotron').outerHeight();
+  function parallax(){
+      var scrolled = $(window).scrollTop();
+      $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+  }
+  
+  $(window).scroll(function(e){
+      parallax();
+  });
+
+  
+
 /*!
     * Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
     * Copyright 2013-2020 Start Bootstrap
@@ -61,17 +75,5 @@
       }
     });
 
+
   })(jQuery); // End of use strict
-
-
-var jumboHeight = $('.jumbotron').outerHeight();
-function parallax(){
-    var scrolled = $(window).scrollTop();
-    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
-}
-
-$(window).scroll(function(e){
-    parallax();
-});
-
-  
