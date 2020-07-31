@@ -3,22 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- Tipografia/Fuente de letras -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,900;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- Libreria css bootstra -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Vinculacion de carpeta css -->
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>contacto</title>
 </head>
-<body>
-
-
-    <footer>
-        <span>
-        <a href="">Inicio</a>
-        <a href="">Acerca De</a>
-        <a href="">Ayuda</a>
-        </span>
-        
-        <span>Derechos Reservados ® 2020 HEMServicesPro.com</span> 
-    </footer>
+<body style="background-color:#3E4551;">
+    <!-- jumbotron con efecto parallax -->
+    <div class="bg"></div>
+    <div class="jumbotron">
+      <h1 class = "location-name text-center">Contactos</h1>
+      <br>
+      <hr class="my-4">
+      <br>
+      <p class ="building-name text-center">Para cualquier pregunta acerca de nuestros servicios, no dude en contactarnos, responderemos de inmediato a su amable petición.</p>
+    </div>
+    <!-- Cuadro con formulario a la izquierdad y mapa a la derecha -->
+    <div class="container">
+        <h2 class="text-center mt-3"> <i class="fas fa-users text-primary"></i> </i>  Contacto </h2>
+        <div class="row justify-content-between">
+            <div class="col-md-6 col-sm-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13455.587803081293!2d-116.9868046!3d32.5288991!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x281526cf22a3e2cc!2sInstituto%20Tecnol%C3%B3gico%20de%20Tijuana!5e0!3m2!1ses-419!2smx!4v1596160275250!5m2!1ses-419!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="col-6">
+                <form action=""method="">
+                    <div class="form-group">
+                        <label for="" class="col-md-6"> <i class="fas fa-envelope text-primary"></i>  Correo  </label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control">
+                        </div>
+                    </div>
+                        <div class="form-group">
+                            <label for="" class="col-md-6"> <i class="fas fa-arrow-alt-circle-right text-primary"></i>  Asunto  </label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control">
+                            </div>
+                        </div>
+                    <div class="form-group">
+                        <label for="" class="col-md-6"> <i class="fas fa-align-justify text-primary"></i>  Mensaje  </label>
+                        <div class="col-md-10">
+                            <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                    <div class="row justify-content-center">
+                        <button class="btn btn-outline-primary mt-3"> <i class="fas fa-paper-plane"></i> Enviar  </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Libreria Js -->    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+    <!-- libreria de parallax -->  
+    <script src="js/parallax.js"></script>
+    <!--Vinculacion de carpeta js -->
     <script src="js/script.js"></script>
 </body>
 </html>
