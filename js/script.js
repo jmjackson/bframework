@@ -1,12 +1,3 @@
-var jumboHeight = $('.jumbotron').outerHeight();
-function parallax(){
-    var scrolled = $(window).scrollTop();
-    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
-}
-
-$(window).scroll(function(e){
-    parallax();
-});
 
 /*!
     * Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
@@ -71,4 +62,16 @@ $(window).scroll(function(e){
     });
 
   })(jQuery); // End of use strict
+
+
+var jumboHeight = $('.jumbotron').outerHeight();
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+}
+
+$(window).scroll(function(e){
+    parallax();
+});
+
   
