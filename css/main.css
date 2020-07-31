@@ -7,7 +7,7 @@
     left:0;
     z-index: -1;
   }
-  
+
   .jumbotron {
     font-family: 'Nunito', sans-serif;
     height: 550px;
@@ -20,4 +20,17 @@
     color: white;
     background-color: #3E4551;
   }
-  
+  .texto1 {
+      font-family: 'Nunito', sans-ser;
+      font-size: 40px;
+  }
+
+  .texto2 {
+      font-family: 'Nunito', sans-serif;
+      font-size: 25px;
+  }
+
+  .texto3 {
+      font-family: 'Nunito', sans-serif;
+      font-size: 22px;
+  }
