@@ -1,0 +1,16 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+
+}
+
+.ls{
+    border: 1px solid red;
+}
+.p6{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px solid blue;
+}
