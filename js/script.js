@@ -1,4 +1,18 @@
 
+
+
+  var jumboHeight = $('.jumbotron').outerHeight();
+  function parallax(){
+      var scrolled = $(window).scrollTop();
+      $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+  }
+  
+  $(window).scroll(function(e){
+      parallax();
+  });
+
+  
+
 /*!
     * Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
     * Copyright 2013-2020 Start Bootstrap
@@ -21,16 +35,6 @@
       }
     });
 
-    // Jumbotron efecto Parallax
-    var jumboHeight = $('.jumbotron').outerHeight();
-    function parallax(){
-        var scrolled = $(window).scrollTop();
-        $('.bg').css('height', (jumboHeight-scrolled) + 'px');
-    }
-    
-    $(window).scroll(function(e){
-        parallax();
-    });
     // Closes responsive menu when a scroll trigger link is clicked
     $('.js-scroll-trigger').click(function() {
       $('.navbar-collapse').collapse('hide');
@@ -71,7 +75,5 @@
       }
     });
 
+
   })(jQuery); // End of use strict
-
-
-  
